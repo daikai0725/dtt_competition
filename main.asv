@@ -1,0 +1,8 @@
+load model_00
+%%data_part = xlsread('Y2018_data');
+load data_part_3.0.2
+data_part = data_part_3.0.2;
+load label_2018_20
+label_part = label_2018_20;
+[predict_label,accuracy,dec_values]=svmpredict(label_part,data_part,model);
+fprintf('accuracy=%f\n',accuracy);
