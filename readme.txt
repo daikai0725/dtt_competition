@@ -1,0 +1,6 @@
+Y2018_data.xls是2018年的数据
+data_part_302.mat是预处理之后的数据
+label_2018_20.mat是2018年的标签数据
+main.m是主函数用于预测输入数据的label
+model_00-02是训练完的模型
+libsvm和svm文件是调用的svm函数库
